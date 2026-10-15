@@ -1,0 +1,11 @@
+name = "fold_and_punch"
+version = "0.1.0"
+defaultTargets = ["FoldAndPunch"]
+
+[[lean_lib]]
+name = "FoldAndPunch"
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "v4.34.1"
