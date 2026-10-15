@@ -1,11 +1,11 @@
 > [!NOTE]
 > **AI use disclosure**
 >
-> This project was developed through an iterative conversation between Alberto and OpenAI's Codex. Alberto chose the computational-geometry lab problem, proposed and refined the depth-limited punching variation and the pair/triple constructions, asked questions about the arguments, and directed the progression from definitions to local lemmas and complete algorithms. He also requested explicit, readable tactic proofs.
+> This project was developed through an iterative conversation between Alberto and OpenAI's Codex. Alberto provided the computational-geometry lab problem with the proposed punching variation and the pair/triple algorithms. He also requested explicit, readable tactic proofs.
 >
-> Codex generated the project's Lean definitions, proof scripts, and supporting lemmas; selected Mathlib results; organized the files; debugged compilation errors; ran builds and axiom checks; and drafted documentation. Codex also helped refine the mathematical model and explanations, including exposed-layer order, the effect of earlier holes, and the distinction between per-batch and total crease bounds. The interaction included discussion and revision, not just code completion. The Lean implementation should therefore be understood as AI-generated work developed under human direction, not as independently human-written code. Codex also helped edit explanations for the accompanying lab post.
+> Codex generated the project's Lean definitions, proof scripts, and supporting lemmas; selected Mathlib results; organized the files; debugged compilation errors; ran builds and axiom checks; and drafted documentation. The interaction included discussion and revision, not just code completion. The Lean implementation should therefore be understood as AI-generated work developed under human direction, not as independently human-written code.
 >
-> The conversation initially explored formalizing Theorem 9 of a paper, but that attempt was stopped and replaced by the current k=2/k=3 project. The checked results here concern the stated idealized model. The final build and axiom checks found no `sorry` or custom axioms in the proofs; Lean checking establishes the formal statements from their definitions and assumptions, not optimality or physical realizability.
+> The checked results here concern the stated idealized model. The final build and axiom checks found no `sorry` or custom axioms in the proofs; Lean checking establishes the formal statements from their definitions and assumptions, not optimality or physical realizability.
 
 # Convex-paper fold and punch
 
